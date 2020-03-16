@@ -15,9 +15,8 @@
 Goal
 ----
 
-..
-    `HTSeqQC <https://github.com/reneshbedre/HTSeqQC>`_ is an automated quality control analysis tool for a single and
-    paired-end high-throughput sequencing data (HTS) generated from Illumina sequencing platforms.
+`HTSeqQC <https://github.com/reneshbedre/HTSeqQC>`_ is an automated quality control analysis tool for a single and
+paired-end high-throughput sequencing data (HTS) generated from Illumina sequencing platforms.
 
 ----
 
@@ -73,7 +72,7 @@ Platform(s)
       - Web/Point-and-click
       - |Discovery Environment|
       - |DE Manual|
-      - |Discovery Environment Guide|  
+      - |Discovery Environment Guide|
 
 Application(s) used
 ~~~~~~~~~~~~~~~~~~~
