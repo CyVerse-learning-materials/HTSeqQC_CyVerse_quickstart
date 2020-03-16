@@ -5,7 +5,7 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**TUTORIAL NAME**
+**HTSeqQC**
 =================
 
 ..
@@ -16,23 +16,10 @@ Goal
 ----
 
 ..
-    #### Comment: Avoid covering upstream and downstream steps that are not explicitly and
-    necessarily part of the tutorial - write or link to separate quick
-    starts/tutorials for those parts ####
+    `HTSeqQC <https://github.com/reneshbedre/HTSeqQC>`_ is an automated quality control analysis tool for a single and
+    paired-end high-throughput sequencing data (HTS) generated from Illumina sequencing platforms.
 
 ----
-
-.. toctree::
-	:maxdepth: 2
-
-	Tutorial home <self>
-	Step One <step1.rst>
-	Delete this example guide page <example_directives_delete.rst>
-..
-	#### Comment:This tutorial can have multiple pages. The table of contents assumes
-	you have an additional page called 'Step One' with content located in 'step1.rst'
-	Edit these titles and filenames as needed ####
-
 
 Prerequisites
 -------------
@@ -86,32 +73,7 @@ Platform(s)
       - Web/Point-and-click
       - |Discovery Environment|
       - |DE Manual|
-      - |Discovery Environment Guide|
-    * - Atmosphere
-      - Command line (ssh) and/or Desktop (VNC)
-      - |Atmosphere|
-      - |Atmosphere Manual|
-      - |Atmosphere Guide|
-    * - BisQue
-      - Web/Point-and-click and/or Command-line (API)
-      - |BisQue|
-      - |BisQue Manual|
-      - (See Manual)
-    * - DNA Subway
-      - Web/Point-and-click
-      - |DNA Subway|
-      - (See Guide)
-      - |DNA Subway Guide|
-    * - SciApps
-      - Command-line (API)
-      - |SciApps|
-      - (See Guide)
-      - |SciApps Guide|
-    * - Agave API
-      - Command-line (API)
-      - |Agave API|
-      - |Agave Live Docs|
-      - (See Live Docs)
+      - |Discovery Environment Guide|  
 
 Application(s) used
 ~~~~~~~~~~~~~~~~~~~
