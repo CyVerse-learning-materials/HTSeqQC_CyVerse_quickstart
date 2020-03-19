@@ -40,7 +40,7 @@ Downloads, access, and services
     * - CyVerse account
       - You will need a CyVerse account to complete this exercise
       - `Register <https://user.cyverse.org/>`_
-   
+
 Platform(s)
 ~~~~~~~~~~~
 
@@ -102,7 +102,7 @@ Input and example data
 
 
 
-1. Login to the **Discovery Environment (DE)**.
+1. Login to the `Discovery Environment (DE) <https://de.cyverse.org/de/>`_.
 
 2. Click on the **Apps** in the DE workspace and search for **HTSeqQC**. Click on **HTSeqQC** to open the app.
 
