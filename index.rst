@@ -108,33 +108,84 @@ Input and example data
 
 
 
-1. Login to the |discovery_enviornment (DE)|.
+1. Login to the |discovery_enviornment| (DE).
 
-2. Click on the **Apps** in the DE workspace and search for |HTSeqQC|. Click on **HTSeqQC** to open the app.
+2. Click on the **Apps** in the DE workspace and search for **HTSeqQC**. Click on **HTSeqQC** to open the app.
 
-3. Under “Analysis Name” leave the defaults or make any desired notes.
+3. Under “Analysis Name”, you can  use default name or change as appropriate.
 
-4. Under “Select Input data” for ‘Input file, click Browse, then navigate to and
-   select one or more FastQ files to analyze; Then click OK.
+4. Under “Input”, provide singe (Input file 1 only) or paired-end (bothInput file 1 and 2) data by clicking "Add" button. Here, you
+   can provide single or multiple files for the analysis.
 
-   .. Note::
+5. Under “Parameter”, select appropriate parameters to run the analysis.
 
-	    To use our example data, navigate to *Community Data >*
-	    *cyverse_training > quickstarts > fastqc and select the SRR1028781.fastq file.*
-
-
-5. Click **Launch Analysis**. You will receive a notification and may close the
+Click **Launch Analysis**. You will receive a notification and may close the
    Apps window.
 
 6. Click on **Analyses** from the DE workspace and monitor the status of your
    submitted job (You may have to click refresh to view updated status).
 
 7. In the Analysis console, once your status appears as ‘Completed,’ click
-   on the name of your analysis to navigate you to the results. Download the
-   result files (in zip format) using the simple download, unzip the files and
-   open the results in a web browser.
+   on the name of your analysis to navigate you to the results.
 
 ----
+
+.. code-block:: python
+      usage: filter.py [-h] [-a INPUT_FILES_1] [-b INPUT_FILES_2] [-c QUAL_FMT]
+                       [-e N_CONT] [-f ADPT_SEQS] [-d MIN_SIZE] [-g ADPT_MATCH]
+                       [-i QUAL_THRESH] [-n TRIM_OPT] [-p WIND_SIZE]
+                       [-r MIN_LEN_FILT] [-q CPU] [-m OUT_FMT] [-v VIS_OPT]
+                       [--version]
+
+      Quality control analysis of single and paired-end sequence data
+
+
+      optional arguments:
+        -h, --help            show this help message and exit
+        -a INPUT_FILES_1, --p1 INPUT_FILES_1
+                              Single end input files or left files for paired-end
+                              data (.fastq, .fq). Multiple sample files must be
+                              separated by comma or space
+        -b INPUT_FILES_2, --p2 INPUT_FILES_2
+                              Right files for paired-end data (.fastq, .fq).
+                              Multiple files must be separated by comma or space
+        -c QUAL_FMT, --qfmt QUAL_FMT
+                              Quality value format [1= Illumina 1.8, 2= Illumina
+                              1.3,3= Sanger]. If quality format not provided, it
+                              will automatically detect based on sequence data
+        -e N_CONT, --nb N_CONT
+                              Filter the reads containing given % of uncalled bases
+                              (N)
+        -f ADPT_SEQS, --adp ADPT_SEQS
+                              Trim the adapter and truncate the read sequence
+                              (multiple adapter sequences must be separated by
+                              comma)
+        -d MIN_SIZE, --msz MIN_SIZE
+                              Filter the reads which are lesser than minimum size
+        -g ADPT_MATCH, --per ADPT_MATCH
+                              Truncate the read sequence if it matches to adapter
+                              sequence equal or more than given percent (0.0-1.0)
+                              [default=0.9]
+        -i QUAL_THRESH, --qthr QUAL_THRESH
+                              Filter the read sequence if average quality of bases
+                              in reads is lower than threshold (1-40) [default:20]
+        -n TRIM_OPT, --trim TRIM_OPT
+                              If trim option set to True, the reads with low quality
+                              (as defined by option --qthr) will be trimmed instead
+                              of discarding [True|False] [default: False]
+        -p WIND_SIZE, --wsz WIND_SIZE
+                              The window size for trimming (5->3) the reads. This
+                              option should always set when -trim option is defined
+                              [default: 5]
+        -r MIN_LEN_FILT, --mlk MIN_LEN_FILT
+                              Minimum length of the reads to retain after trimming
+        -q CPU, --cpu CPU     Number of CPU [default:2]
+        -m OUT_FMT, --ofmt OUT_FMT
+                              Output file format (fastq/fasta) [default:fastq]
+        -v VIS_OPT, --no-vis VIS_OPT
+                              No figures will be produced [True|False]
+                              [default:False]
+        --version             show program's version number and exit
 
 **Fix or improve this documentation**
 
