@@ -130,9 +130,12 @@ Input and example data
 
 ----
 
+
+*HTSeqQC optional parameters:*
+-----------------------------------------
+
 ::
 
-    HTSeqQC optional parameters:
       -a INPUT_FILES_1, --p1 INPUT_FILES_1
                             Single end input files or left files for paired-end
                             data (.fastq, .fq). Multiple sample files must be
@@ -177,6 +180,8 @@ Input and example data
                             No figures will be produced [True|False]
                             [default:False]
       --version             show program's version number and exit
+
+----
 
 
 **Fix or improve this documentation**
