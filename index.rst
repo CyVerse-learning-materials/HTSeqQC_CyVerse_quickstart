@@ -183,6 +183,13 @@ Input and example data
 
 ----
 
+*Output:*
+-----------------------------------------
+
+| HTSeqQC produces the filtered cleaned HTS data as FASTQ/FASTA files,
+| and statistics and visualization of filtered cleaned HTS datasets. The
+| output will be saved in folder with name ending as filtering\_out.
+
 
 **Fix or improve this documentation**
 
