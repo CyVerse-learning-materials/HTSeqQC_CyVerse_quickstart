@@ -65,14 +65,14 @@ Platform(s)
       - Quick Start
     * - Data Store
       - GUI/Command line
-      - |Data Store|
-      - |Data Store Manual|
-      - |Data Store Guide|
+      - `Data Store <http://www.cyverse.org/data-store>`_
+      - `Data Store Manual <https://wiki.cyverse.org/wiki/display/DS/Data+Store+Table+of+Contents>`_
+      - `Guide <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/>`__
     * - Discovery Environment
       - Web/Point-and-click
-      - |Discovery Environment|
-      - |DE Manual|
-      - |Discovery Environment Guide|
+      - `Discovery Environment (DE) <https://de.cyverse.org/de/>`_
+      - `DE Manual <https://wiki.cyverse.org/wiki/display/DEmanual/Table+of+Contents>`_
+      - `Guide <https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/>`__
 
 
 Input and example data
