@@ -39,14 +39,8 @@ Downloads, access, and services
       - Link/Download
     * - CyVerse account
       - You will need a CyVerse account to complete this exercise
-      - |CyVerse User Portal|
-    * - Atmosphere access
-      - You must have access to Atmosphere
-      - |CyVerse User Portal|
-    * - Cyberduck
-      - Standalone software for upload/download to Data Store
-      - |Download Cyberduck|
-
+      - `Register <https://user.cyverse.org/>`_
+   
 Platform(s)
 ~~~~~~~~~~~
 
