@@ -74,45 +74,6 @@ Platform(s)
       - |DE Manual|
       - |Discovery Environment Guide|
 
-Application(s) used
-~~~~~~~~~~~~~~~~~~~
-..
-	#### Comment: these tables are examples, delete whatever is unnecessary ####
-
-**Discovery Environment App(s):**
-
-.. list-table::
-    :header-rows: 1
-
-    * - App name
-      - Version
-      - Description
-      - App link
-      - Notes/other links
-    * - Muscle
-      - 3.8.31
-      - Multiple sequence aligner
-      -	|DE Application URL|
-      - |Original App Documentation|
-
-
-**Atmosphere Image(s):**
-
-.. list-table::
-    :header-rows: 1
-
-    * - Image name
-      - Version
-      - Description
-      - Link
-      - Notes/other links
-    * - CyVerse CentOS 6.8 GUI Base
-      - 1.0
-      - base image CentOS 6.8 with GNOME GUI
-      - |Atmosphere Image|
-      -
-
-
 
 Input and example data
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -129,10 +90,10 @@ Input and example data
       - Format
       - Preparation/Notes
       - Example Data
-    * -
-      -
-      -
-      -
+    * - HTS generated Sequence reads
+      - `FASTQ <https://en.wikipedia.org/wiki/FASTQ_format>`_
+      - Single and Paired-end sequence reads generated from Illumina sequencing platform
+      - Test data for this is available in the Discovery Environment in the Data window under Community Data -> iplantcollaborative -> example_data -> htseqqc
 
 ----
 
