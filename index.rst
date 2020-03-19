@@ -102,9 +102,10 @@ Input and example data
 
 
 
-1. Login to the `Discovery Environment (DE) <https://de.cyverse.org/de/>`_.
+1. Login to the `Discovery Environment (DE) <https://de.cyverse.org/de/>`_ .
 
 2. Click on the **Apps** in the DE workspace and search for **HTSeqQC**. Click on **HTSeqQC** to open the app.
+   Quick launch `HTSeqQC 1.0 <https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=3dda8777-0b17-4e69-af69-9c5c290411f7&app-id=b91ffda4-4df0-11ea-bd40-008cfa5ae621>`_
 
 3. Under “Analysis Name”, you can  use default name or change as appropriate.
 
