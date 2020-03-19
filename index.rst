@@ -97,6 +97,45 @@ Input and example data
 
 ----
 
+*Get started:*
+-----------------------------------------
+
+.. Tip::
+
+	If you have not already imported your own sequence read files to CyVerse,
+	you can follow the instructions for uploading data, for example using
+	Cyberduck, in our `Data Store guide <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step1.html>`_
+
+
+
+1. Login to the |discovery_enviornment (DE)|.
+
+2. Click on the **Apps** in the DE workspace and search for |HTSeqQC|. Click on **HTSeqQC** to open the app.
+
+3. Under “Analysis Name” leave the defaults or make any desired notes.
+
+4. Under “Select Input data” for ‘Input file, click Browse, then navigate to and
+   select one or more FastQ files to analyze; Then click OK.
+
+   .. Note::
+
+	    To use our example data, navigate to *Community Data >*
+	    *cyverse_training > quickstarts > fastqc and select the SRR1028781.fastq file.*
+
+
+5. Click **Launch Analysis**. You will receive a notification and may close the
+   Apps window.
+
+6. Click on **Analyses** from the DE workspace and monitor the status of your
+   submitted job (You may have to click refresh to view updated status).
+
+7. In the Analysis console, once your status appears as ‘Completed,’ click
+   on the name of your analysis to navigate you to the results. Download the
+   result files (in zip format) using the simple download, unzip the files and
+   open the results in a web browser.
+
+----
+
 **Fix or improve this documentation**
 
 Search for an answer:
