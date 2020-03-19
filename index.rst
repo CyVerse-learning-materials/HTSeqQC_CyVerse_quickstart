@@ -131,8 +131,8 @@ Input and example data
 ----
 
 ::
+
     HTSeqQC optional parameters:
-      -h, --help            show this help message and exit
       -a INPUT_FILES_1, --p1 INPUT_FILES_1
                             Single end input files or left files for paired-end
                             data (.fastq, .fq). Multiple sample files must be
