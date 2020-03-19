@@ -117,7 +117,7 @@ Input and example data
 4. Under “Input”, provide singe (Input file 1 only) or paired-end (both Input file 1 and 2) data by clicking "Add" button. Here, you
    can provide single or multiple files for the analysis.
 
-5. Under “Parameter”, select appropriate parameters to run the analysis.
+5. Under “Parameter”, select appropriate parameters to run the analysis. Check below for detailed parameters.
 
 6. Click **Launch Analysis**. You will receive a notification and may close the
    Apps window.
@@ -131,17 +131,7 @@ Input and example data
 ----
 
 ::
-
-    usage: filter.py [-h] [-a INPUT_FILES_1] [-b INPUT_FILES_2] [-c QUAL_FMT]
-                     [-e N_CONT] [-f ADPT_SEQS] [-d MIN_SIZE] [-g ADPT_MATCH]
-                     [-i QUAL_THRESH] [-n TRIM_OPT] [-p WIND_SIZE]
-                     [-r MIN_LEN_FILT] [-q CPU] [-m OUT_FMT] [-v VIS_OPT]
-                     [--version]
-
-    Quality control analysis of single and paired-end sequence data
-
-
-    optional arguments:
+    HTSeqQC optional parameters:
       -h, --help            show this help message and exit
       -a INPUT_FILES_1, --p1 INPUT_FILES_1
                             Single end input files or left files for paired-end
