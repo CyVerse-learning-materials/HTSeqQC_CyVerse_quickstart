@@ -11,7 +11,7 @@ from misc.cyverse_sphinx_conf import *  # noqa
 
 project = 'HTSeqQC'
 copyright = '2020, Renesh Bedre'
-author = 'Renesh Bedre', 'Niranjan Baisakh', 'Kranthi Mandadi'
+author = 'Renesh Bedre, Niranjan Baisakh, Kranthi Mandadi'
 version = '1.0'
 release = '1.0'
 

@@ -103,7 +103,7 @@
 
 .. Comment: images
 
-.. |CyVerse logo| image:: /img/cyverse_rgb.png
+.. |CyVerse logo| image:: ./img/cyverse_rgb.png
     :width: 500
     :height: 100
 .. _CyVerse logo: http://learning.cyverse.org/

@@ -20,13 +20,25 @@ paired-end high-throughput sequencing data (HTS) generated from Illumina sequenc
 
 ----
 
+Features
+----
+
+#. Simultaneously filter and/or trim reads for adapter or primer contamination, uncalled bases (N), and low-quality reads
+#. Supports single and paired-end reads
+#. Analyze multiple samples simultaneously
+#. Parallel computation for accelerating the speed of analysis
+#. Visualization and statistics
+#. No dependency on an external open-source tool
+
+----
+
 Prerequisites
 -------------
 
 Downloads, access, and services
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*In order to complete this tutorial you will need access to the following services/software*
+*To complete this tutorial, you will need access to the following services/software*
 
 ..
 	#### comment: delete any row not needed in this table ####
@@ -72,7 +84,7 @@ Platform(s)
 Input and example data
 ~~~~~~~~~~~~~~~~~~~~~~
 
-*In order to complete this tutorial you will need to have the following inputs prepared*
+*To complete this tutorial, you will need to have the following inputs prepared*
 
 ..
 	#### comment: delete any row not needed in this table ####
