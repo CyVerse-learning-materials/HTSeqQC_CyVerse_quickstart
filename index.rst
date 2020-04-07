@@ -196,7 +196,84 @@ Input and example data
 HTSeqQC produces the filtered cleaned HTS data as FASTQ/FASTA files, and statistics and visualization of filtered
 cleaned HTS datasets. The output will be saved in folder with name ending as filtering\_out.
 
+Following output files and graphs are produced by HTSeqQC with default commands,
+
+.. list-table::
+    :header-rows: 1
+
+    * - Files
+      - Description
+    * - `Statistics.txt`
+      - Detailed statistics of quality control evaluations for provided parameters
+    * - `1_S1_L001_R1_001_Clean.fastq`
+      -  Cleaned sequence data in FASTQ format (left file for paired-end data)
+    * - `1_S1_L001_R2_001_Clean.fastq`
+      -  Cleaned sequence data in FASTQ format (right file for paired-end data)
+    * - `1_S1_L001_R1_001_Qualdist.png`
+      -   Comparative sequence PHRED quality distribution for raw and cleaned data (for left file)
+    * - `1_S1_L001_R2_001_Qualdist.png`
+      -  Comparative sequence PHRED quality distribution for raw and cleaned data (for right file)
+    * - `1_S1_L001_R1_001_GCdist.png`
+      -  Comparative percentage of GC content distribution for raw and cleaned data (for left file)
+    * - `1_S1_L001_R2_001_GCdist.png`
+      -  Comparative percentage of GC content distribution for raw and cleaned data (for right file)
+    * - `1_S1_L001_R1_001_QualGroup.png`
+      -  Group-wise sequence PHRED quality distribution for cleaned data (for left file)
+    * - `1_S1_L001_R2_001_QualGroup.png`
+      -  Group-wise for sequence PHRED quality distribution for cleaned data (for right file)
+    * - `1_S1_L001_R1_001_Basedist.png`
+      -  Nucleotide base content for raw and cleaned data (for left file)
+    * - `1_S1_L001_R2_001_Basedist.png`
+      -  Nucleotide base content for raw and cleaned data (for right file)
+    * - `Command.log`
+      -  Commands used for the HTSeqQC analysis
+
+Detailed statistics of quality control evaluations (`Statistics.txt`)
+
+.. image:: ./img/htseqqc/stat.PNG
+    :width: 600
+
+Comparative sequence PHRED quality distribution for raw and cleaned data (`1_S1_L001_R1_001_Qualdist.png` and
+`1_S1_L001_R2_001_Qualdist.png`)
+
+.. image:: ./img/htseqqc/1_S1_L001_R1_001_Qualdist.png
+    :width: 400
+
+.. image:: ./img/htseqqc/1_S1_L001_R2_001_Qualdist.png
+    :width: 400
+
+Comparative percentage of GC content distribution for raw and cleaned data (`1_S1_L001_R1_001_GCdist.png` and
+`1_S1_L001_R2_001_GCdist.png`)
+
+.. image:: ./img/htseqqc/1_S1_L001_R1_001_GCdist.png
+    :width: 400
+
+.. image:: ./img/htseqqc/1_S1_L001_R2_001_GCdist.png
+    :width: 400
+
+Nucleotide base content for raw and cleaned data (`1_S1_L001_R1_001_Basedist.png` and `1_S1_L001_R2_001_Basedist.png`)
+
+.. image:: ./img/htseqqc/1_S1_L001_R1_001_Basedist.png
+    :width: 400
+
+.. image:: ./img/htseqqc/1_S1_L001_R2_001_Basedist.png
+    :width: 400
+
+
+Group-wise sequence PHRED quality distribution for cleaned data (`1_S1_L001_R1_001_QualGroup.png` and
+`1_S1_L001_R2_001_QualGroup.png`)
+
+.. image:: ./img/htseqqc/1_S1_L001_R1_001_QualGroup.png
+    :width: 400
+
+.. image:: ./img/htseqqc/1_S1_L001_R2_001_QualGroup.png
+    :width: 400
+
 ----
+
+
+If you have any questions, comments or recommendations, please email me at reneshbe@gmail.com
+
 
 **Fix or improve this documentation**
 
