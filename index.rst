@@ -5,8 +5,8 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**HTSeqQC**
-=================
+**HTSeqQC Quick Start**
+========================
 
 ..
     #### Comment: Use short, imperative titles e.g. Upload and share data, uploading and
@@ -15,7 +15,7 @@
 Goal
 ----
 
-`HTSeqQC <https://github.com/reneshbedre/HTSeqQC>`_ is an automated quality control analysis tool for a single and
+|HTSeqQC| is an automated quality control analysis tool for a single and
 paired-end high-throughput sequencing data (HTS) generated from Illumina sequencing platforms.
 
 ----
@@ -51,7 +51,7 @@ Downloads, access, and services
       - Link/Download
     * - CyVerse account
       - You will need a CyVerse account to complete this exercise
-      - `Register <https://user.cyverse.org/>`_
+      - Register: |CyVerse User Portal|
 
 Platform(s)
 ~~~~~~~~~~~
@@ -71,14 +71,14 @@ Platform(s)
       - Quick Start
     * - Data Store
       - GUI/Command line
-      - `Data Store <http://www.cyverse.org/data-store>`_
-      - `Data Store Manual <https://wiki.cyverse.org/wiki/display/DS/Data+Store+Table+of+Contents>`_
-      - `Guide <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/>`__
+      - |Data Store|
+      - |Data Store Manual|
+      - |Data Store Guide|
     * - Discovery Environment
       - Web/Point-and-click
-      - `Discovery Environment (DE) <https://de.cyverse.org/de/>`_
-      - `DE Manual <https://wiki.cyverse.org/wiki/display/DEmanual/Table+of+Contents>`_
-      - `Guide <https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/>`__
+      - |Discovery Environment|
+      - |DE Manual|
+      - |Discovery Environment Guide|
 
 
 Input and example data
@@ -97,7 +97,7 @@ Input and example data
       - Preparation/Notes
       - Example Data
     * - HTS generated Sequence reads
-      - `FASTQ <https://en.wikipedia.org/wiki/FASTQ_format>`_
+      - |FASTQ|
       - Single and Paired-end sequence reads generated from Illumina sequencing platform
       - Test data for this is available in the Discovery Environment in the Data window under Community Data -> iplantcollaborative -> example_data -> htseqqc
 
@@ -110,21 +110,27 @@ Input and example data
 
 	If you have not already imported your own sequence read files to CyVerse,
 	you can follow the instructions for uploading data, for example using
-	Cyberduck, in our `Data Store guide <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step1.html>`_
+	Cyberduck, in our |Data Store Guide|.
 
 
 
-1. Login to the `Discovery Environment (DE) <https://de.cyverse.org/de/>`_ .
+1. Login to the |Discovery Environment|.
 
-2. Click on the **Apps** in the DE workspace and search for **HTSeqQC**. Click on **HTSeqQC** to open the app.
-   Quick launch `HTSeqQC 1.0 <https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=3dda8777-0b17-4e69-af69-9c5c290411f7&app-id=b91ffda4-4df0-11ea-bd40-008cfa5ae621>`_
+2. Click on the **Apps** in the DE workspace and search for **HTSeqQC**. Click
+   on **HTSeqQC** to open the app or click the button below:
 
-3. Under “Analysis Name”, you can  use default name or change as appropriate.
+   .. raw:: html
 
-4. Under “Input”, provide singe (Input file 1 only) or paired-end (both Input file 1 and 2) data by clicking "Add" button. Here, you
-   can provide single or multiple files for the analysis.
+      <a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=3dda8777-0b17-4e69-af69-9c5c290411f7&app-id=b91ffda4-4df0-11ea-bd40-008cfa5ae621" target="_blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a>
 
-5. Under “Parameter”, select appropriate parameters to run the analysis. Check below for detailed parameters.
+3. Under “Analysis Name”, you can use default name or change as appropriate.
+
+4. Under “Input”, provide singe (Input file 1 only) or paired-end (both Input
+   file 1 and 2) data by clicking "Add" button. Here, you can provide single or
+   multiple files for the analysis.
+
+5. Under “Parameter”, select appropriate parameters to run the analysis. Check
+   below for detailed parameters.
 
 6. Click **Launch Analysis**. You will receive a notification and may close the
    Apps window.
@@ -193,8 +199,9 @@ Input and example data
 *Output:*
 -----------------------------------------
 
-HTSeqQC produces the filtered cleaned HTS data as FASTQ/FASTA files, and statistics and visualization of filtered
-cleaned HTS datasets. The output will be saved in folder with name ending as filtering\_out.
+HTSeqQC produces the filtered cleaned HTS data as FASTQ/FASTA files, and
+statistics and visualization of filtered cleaned HTS datasets. The output will
+be saved in folder with name ending as filtering\_out.
 
 Following output files and graphs are produced by HTSeqQC with default commands,
 
@@ -319,18 +326,15 @@ Search for an answer:
 
    <a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a>
 
-.. |Download Cyberduck| raw:: html
 
-   <a href="https://cyberduck.io/" target="blank">Download Cyberduck</a>
+.. |HTSeqQC|  raw:: html
 
-.. |DE Application URL|  raw:: html
+   <a href="https://github.com/reneshbedre/HTSeqQC" target="blank">HTSeqQC</a>
 
-   <a href="https://de.cyverse.org/de/?type=apps&app-id=9b41c9e4-5031-4a49-b1cb-c471335df16e&system-id=de" target="blank">DE Application URL</a>
+.. |FASTQ|  raw:: html
 
-.. |Original App Documentation|  raw:: html
+   <a href="https://en.wikipedia.org/wiki/FASTQ_format" target="blank">FASTQ</a>
 
-   <a href="http://www.drive5.com/muscle/manual/" target="blank">Original App Documentation</a>
+.. |HTSeqQC 1.0|  raw:: html
 
-.. |Atmosphere Image|  raw:: html
-
-   <a href="https://atmo.cyverse.org/application/images/1384" target="blank">Atmosphere Image</a>
+   <a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=3dda8777-0b17-4e69-af69-9c5c290411f7&app-id=b91ffda4-4df0-11ea-bd40-008cfa5ae621" target="blank">HTSeqQC 1.0</a>
