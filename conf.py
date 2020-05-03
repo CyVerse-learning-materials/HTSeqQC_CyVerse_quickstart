@@ -9,7 +9,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 from misc.cyverse_sphinx_conf import *  # noqa
 
-project = 'HTSeqQC'
+project = 'HTSeqQC Quick Start'
 copyright = '2020, Renesh Bedre'
 author = 'Renesh Bedre, Niranjan Baisakh, Kranthi Mandadi'
 version = '1.0'
