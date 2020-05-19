@@ -119,9 +119,7 @@ Input and example data
 2. Click on the **Apps** in the DE workspace and search for **HTSeqQC**. Click
    on **HTSeqQC** to open the app or click the button below:
 
-   .. raw:: html
-
-      <a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=3dda8777-0b17-4e69-af69-9c5c290411f7&app-id=b91ffda4-4df0-11ea-bd40-008cfa5ae621" target="_blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a>
+   |CyVerse_launch|
 
 3. Under “Analysis Name”, you can use default name or change as appropriate.
 
