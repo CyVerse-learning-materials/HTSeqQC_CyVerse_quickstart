@@ -10,10 +10,10 @@ extensions = [
 ]
 
 project = 'HTSeqQC Quick Start'
-copyright = '2019, CyVerse'
+copyright = '2020, CyVerse'
 author = 'CyVerse'
-version = '1.0'
-release = '1.0'
+version = '2.0'
+version = '2.0'
 
 language = None
 source_parsers = {

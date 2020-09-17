@@ -12,8 +12,8 @@ from misc.cyverse_sphinx_conf import *  # noqa
 project = 'HTSeqQC Quick Start'
 copyright = '2020, Renesh Bedre'
 author = 'Renesh Bedre, Niranjan Baisakh, Kranthi Mandadi'
-version = '1.0'
-release = '1.0'
+version = '2.0'
+version = '2.0'
 
 epub_title = project
 epub_author = author
