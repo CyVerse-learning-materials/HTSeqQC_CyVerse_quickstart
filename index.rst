@@ -5,7 +5,7 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**HTSeqQC Quick Start**
+**HTSQualC Quick Start**
 ========================
 
 ..
@@ -15,7 +15,7 @@
 Goal
 ----
 
-|HTSeqQC| is an automated quality control analysis tool for a single and
+|HTSQualC| is an automated quality control analysis tool for a single and
 paired-end high-throughput sequencing data (HTS) generated from Illumina sequencing platforms.
 
 ----
@@ -116,8 +116,8 @@ Input and example data
 
 1. Login to the |Discovery Environment|.
 
-2. Click on the **Apps** in the DE workspace and search for **HTSeqQC**. Click
-   on **HTSeqQC** to open the app or click the button below:
+2. Click on the **Apps** in the DE workspace and search for **HTSQualC**. Click
+   on **HTSQualC** to open the app or click the button below:
 
    |CyVerse_launch|
 
@@ -142,7 +142,7 @@ Input and example data
 ----
 
 
-*HTSeqQC optional parameters:*
+*HTSQualC optional parameters:*
 -----------------------------------------
 
 ::
@@ -197,11 +197,11 @@ Input and example data
 *Output:*
 -----------------------------------------
 
-HTSeqQC produces the filtered cleaned HTS data as FASTQ/FASTA files, and
+HTSQualC produces the filtered cleaned HTS data as FASTQ/FASTA files, and
 statistics and visualization of filtered cleaned HTS datasets. The output will
 be saved in folder with name ending as filtering\_out.
 
-Following output files and graphs are produced by HTSeqQC with default commands,
+Following output files and graphs are produced by HTSQualC with default commands,
 
 .. list-table::
     :header-rows: 1
@@ -231,7 +231,7 @@ Following output files and graphs are produced by HTSeqQC with default commands,
     * - `1_S1_L001_R2_001_Basedist.png`
       -  Nucleotide base content for raw and cleaned data (for right file)
     * - `Command.log`
-      -  Commands used for the HTSeqQC analysis
+      -  Commands used for the HTSQualC analysis
 
 Detailed statistics of quality control evaluations (`Statistics.txt`)
 
@@ -332,14 +332,14 @@ If you have any questions, comments or recommendations, please email me at renes
    <a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a>
 
 
-.. |HTSeqQC|  raw:: html
+.. |HTSQualC|  raw:: html
 
-   <a href="https://github.com/reneshbedre/HTSeqQC" target="blank">HTSeqQC</a>
+   <a href="https://github.com/reneshbedre/HTSQualC" target="blank">HTSQualC </a>
 
 .. |FASTQ|  raw:: html
 
    <a href="https://en.wikipedia.org/wiki/FASTQ_format" target="blank">FASTQ</a>
 
-.. |HTSeqQC 1.0|  raw:: html
+.. |HTSQualC  1.1|  raw:: html
 
-   <a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=3dda8777-0b17-4e69-af69-9c5c290411f7&app-id=b91ffda4-4df0-11ea-bd40-008cfa5ae621" target="blank">HTSeqQC 1.0</a>
+   <a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=3dda8777-0b17-4e69-af69-9c5c290411f7&app-id=b91ffda4-4df0-11ea-bd40-008cfa5ae621" target="blank">HTSQualC  1.1</a>
